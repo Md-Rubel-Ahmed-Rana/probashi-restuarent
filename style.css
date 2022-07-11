@@ -15,7 +15,7 @@ header{
 header > .logo{
     width: 20%;
     text-align: center;
-    padding: 10px;
+    margin-top: 21px;
 }
 
 header > .logo img{
@@ -156,4 +156,36 @@ main > div > button a{
     font-size: 30px;
     width: 70%;
     border-radius: 10px ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #000000a1;
+    
+}
+
+.copy-right{
+    width: 40%;
+}
+
+.copy-right p{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+
+.social-icons{
+    width: 30%;
+    text-align: right; 
+}
+
+.social-icons > a > i{
+    background-color: lightskyblue;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+
 }
