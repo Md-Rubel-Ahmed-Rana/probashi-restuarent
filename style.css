@@ -124,3 +124,36 @@ main > div > button a{
     background-color: green;
     padding: 10px;
 }
+
+#contact-section{
+    background-color: #6b9d00;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-area{
+    width: 40%;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contact-area p{
+    font-size: 20px;
+
+}
+
+.google-map{
+    width: 50%;
+    margin-left: 70px;
+}
+.google-map h2{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    font-size: 30px;
+    width: 70%;
+    border-radius: 10px ;
+}
